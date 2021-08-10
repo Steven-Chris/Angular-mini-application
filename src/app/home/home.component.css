@@ -1,0 +1,13 @@
+label{
+    color:rgb(160, 160, 160);
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+}

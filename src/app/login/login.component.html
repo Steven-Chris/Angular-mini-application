@@ -1,0 +1,20 @@
+<div class="login-wrapper mt-5 d-flex justify-content-center rounded">
+    <div class="card ">
+        <div class="card-body">    
+            <form class="form-signin" (ngSubmit)="onSubmit(signinForm)" #signinForm="ngForm">
+                
+                <h3 class="text-center h5">Please Login</h3>            
+                
+                <input  type="email" name="email"  placeholder="johndoe@mail.com" id="inputEmail" class="form-control mb-4 mt-3" placeholder="Email address" required autofocus ngModel>
+
+                <input  type="password" name="password" id="inputPassword" class="form-control mb-4" placeholder="Password" required ngModel>
+               
+                <button class="btn btn-lg mb-4 btn-primary btn-block w-100" type="submit">Sign in</button>
+                
+                <div class="alert alert-danger mt-4" *ngIf="areCredentialsInvalid">Invalid Credentials</div>
+                <div class="alert alert-danger " *ngIf="isFormInvalid">Please fil all fields</div>
+
+            </form>
+        </div>
+    </div>
+</div>

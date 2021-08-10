@@ -1,0 +1,56 @@
+<div class="container form p-5">
+    <div class="header d-flex flex-column mb-4">
+        <a href="#" class="d-flex align-items-center text-primary fw-bold">
+            <i class="bi bi-arrow-left" style="font-size: 1.3rem;"></i>
+            <p class="ms-2 ">Back</p>
+        </a>
+        <p class="text-secondary fw-bold">Create Building</p>
+    </div>
+    <form>
+        <div class="d-flex mb-3">
+            <div class="form-group w-25">
+                <label for="buildingname" >Building Name<span class="text-danger">*</span></label>
+                <input id="buildingname" type="text" placeholder="Enter Building Name" class="form-control">
+            </div>
+            <div class="form-group w-25 ms-5">
+                <label for="currentLocation" >Current Location</label>
+                <input id="currentLocation" type="text" placeholder="Use Current Location " class="form-control">
+            </div>
+        </div>
+        
+        <div class="form-group w-25 mb-3">
+            <label for="description" >Description/Notes</label>
+            <input id="description" type="text" placeholder="Enter Description/Notes" class="form-control">
+        </div>
+
+        <div class="form-group w-25 mb-3">
+            <label for="address" >Address</label>
+            <input id="address" type="text" placeholder="Enter Address" class="form-control">
+        </div>
+
+        <div class="d-flex mb-3">
+            <div class="form-group w-25">
+                <label for="city" >City</label>
+                <input id="city" type="text" placeholder="Enter City" class="form-control">
+            </div>
+            <div class="form-group w-25 ms-5">
+                <label for="state" >State</label>
+                <input id="state" type="text" placeholder="Use State " class="form-control">
+            </div>
+            <div class="form-group w-25 ms-5">
+                <label for="postCode" >Post Code</label>
+                <input id="postCode" type="text" placeholder="Use Post Code " class="form-control">
+            </div>
+        </div>
+
+        <div class="d-flex flex-column form-group w-25 mb-3">
+            <label>Project Photo</label>
+            <img src="https://source.unsplash.com/random" alt="" width="100px">
+        </div>
+
+        <div class="d-flex  justify-content-end">
+            <button type="button" class="btn btn-outline-primary btn-lg">Cancel</button>
+            <button type="button" class="btn btn-primary btn-lg ms-3">Save</button>
+        </div>
+    </form>
+</div>
