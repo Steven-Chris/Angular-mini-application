@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import {InputTextModule} from 'primeng/inputtext';
+import {DropdownModule} from 'primeng/dropdown';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {InputTextModule} from 'primeng/inputtext';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    InputTextModule
+    InputTextModule,
+    DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
